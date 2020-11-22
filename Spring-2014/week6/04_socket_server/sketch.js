@@ -8,7 +8,7 @@ function setup() {
   background(0);
   // Start a socket connection to the server
   // Some day we would run this server somewhere else
-  socket = io.connect('http://localhost:8080');
+  socket = io.connect('https://globalplayer-ac7kq.ondigitalocean.app');
   // We make a named event called 'mouse' and write an
   // anonymous callback function
   socket.on('mouse',
